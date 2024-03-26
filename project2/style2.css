@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    
+}
+#recipe-card{
+    background-color: rgb(27, 26, 26);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;
+    height: 620px;
+    margin: auto;
+    text-align: center;
+    list-style: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+}
+img{
+    width: 90px;
+    clip-path: circle();
+    margin-top: 15px;
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    color: chartreuse;
+    margin-top: 2px;
+}
+p{
+    color: aliceblue;
+    margin-top: 30px;
+}
+ul{
+    list-style: none;
+    
+}
+li{
+    background-color: rgb(57, 55, 55);
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+    margin-top: 13px;
+    font-size:large;
+    color: aliceblue;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.no-underline{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 22px;
+
+}
+
+ul :hover{
+     transform: scale(1.1);
+     background-color: rgb(111, 181, 196);
+    
+}
